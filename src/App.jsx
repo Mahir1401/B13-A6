@@ -1,6 +1,7 @@
 import './App.css'
 import Banner from './Components/Banner'
 import Navbar from './Components/Navbar'
+import Pricing from './Components/Pricing'
 import Steps from './Components/Steps'
 
 function App() {
@@ -12,6 +13,9 @@ function App() {
     <Banner></Banner>
 
     <Steps></Steps>
+
+    <Pricing></Pricing>
+
     </>
   )
 }

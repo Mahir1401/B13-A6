@@ -8,9 +8,8 @@ const LINKS = {
 
 const Footer = () => (
   <footer className="bg-gray-900 text-gray-400 pt-16 pb-8 px-16 relative">
-    <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-purple-700 to-violet-500" />
 
-    <div className="flex justify-between gap-12 mb-16">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:flex lg:justify-between gap-12 mb-16">
       <div className="max-w-xs">
         <h2 className="text-2xl font-extrabold text-white mb-4">DigiTools</h2>
         <p className="text-sm text-gray-400 leading-relaxed">

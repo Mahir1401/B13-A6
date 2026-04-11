@@ -10,7 +10,7 @@ const Navbar = () => {
       <h2 className='text-3xl font-extrabold bg-gradient-to-r from-purple-700 to-violet-600 bg-clip-text text-transparent'>DigiTools</h2>
       <div className='flex gap-5'>
         {
-          NavLinks.map(link => <a className='font-bold' href=''>{link}</a>)
+          NavLinks.map((link,index) => <a key={index} className='font-bold' href=''>{link}</a>)
         }
       </div>
       <div className=' flex gap-5 items-center'>

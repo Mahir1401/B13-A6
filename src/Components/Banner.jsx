@@ -7,9 +7,6 @@ const Stats = [
   { value: '4.9', label: 'Rating' },
 ];
 
-
-
-
 const Banner = () => {
   return (
 

@@ -46,7 +46,7 @@ const ModelCard = ({ model, carts, setCart }) => {
             : 'bg-gradient-to-r from-purple-700 to-purple-500 cursor-pointer'
           }`}
       >
-        {isBought ? "Purchased " : "Buy Now"}
+        {isBought ? "Added to cart " : "Buy Now"}
       </button>
     </div>
   );
